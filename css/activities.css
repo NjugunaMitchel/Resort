@@ -1,0 +1,62 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #c0c0c0;
+    color:#333;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    font-size: larger;
+    color:aqua;
+    padding:10px;
+    
+}
+nav{
+    text-align: end;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    padding:20px;
+
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+}
+.one{
+    width:40%;
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px #333;
+    margin:10px;
+}
+
+.image{
+    height:350px;
+    width:500px;
+    background: url('https://properspots.africa/wp-content/uploads/2019/11/71892627_153014182742129_2129357451394044528_n-1024x684.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url('https://api.time.com/wp-content/uploads/2018/05/hotel-pool.jpeg?w=800&quality=85');
+}
+
+#img3{
+    background-image: url('https://www.businessdailyafrica.com/image/view/-/1173002/medRes/266711/-/maxw/960/-/acw6edz/-/tribe.jpg');
+}
+
+#img4{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/cc/1f/49/gym.jpg');
+}
+

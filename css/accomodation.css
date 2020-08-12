@@ -1,0 +1,58 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #c0c0c0;
+    color:#333;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    text-align: center;
+    font-size: larger;
+    color:aqua;
+    padding:10px;
+    
+}
+
+nav{
+    text-align: end;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    padding:20px;
+
+}
+
+.one, .two{
+    margin:3px;
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    box-shadow: 3px 3px 2px 2px #333;
+    padding:20px
+}
+
+.image{
+    height:350px;
+    width:500px;
+    background: url('https://lakenaivasharesort.co.ke/assets/images/apartment-1.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#image2{
+    background-image: url('https://lakenaivasharesort.co.ke/assets/images/apartment-2.jpg');
+}
+
+.content{
+    width:40%;
+    padding:30px;
+    font-size: larger;
+}
+
+h2{
+    font-size: 2rem;
+}

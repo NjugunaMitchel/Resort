@@ -1,0 +1,58 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #c0c0c0;
+    color:#333;
+}
+header{
+    background-color: black;
+    text-align: center;
+    font-size: larger;
+    color:aqua;
+    padding:10px;
+    
+}
+
+nav{
+    text-align: end;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    padding:20px;
+
+}
+
+.form{
+    background-color: #333;
+    margin:0 auto;
+    width:70%;
+    border-radius: 4px;
+}
+
+form{
+    color: #333;
+    box-shadow: 3px 3px 3px 3px #333;
+    width:60%;
+    padding:0 20px;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+form h1{
+    text-align: center;
+}
+
+label{
+    font-size: larger;
+}
+input, select{
+    margin:5px;
+    width:80%;
+    height:20px
+}
+
+button{
+    padding:7px;
+    text-align: end;
+}
